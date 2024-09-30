@@ -16,6 +16,7 @@
         <div class="cashier_interface1_row01">
             <div class="cashier_interface_col01">
                 <p>WELCOME</p>
+                <p id="lblCashier">Cashier</p>
             </div>
             <div class="cashier_interface_col02">
                 <img src="design/white logo.png" alt="MOS Logo">
@@ -24,16 +25,25 @@
     </div>
 
         <div class="cashier_interface_row02">
-            
-                <div class="d-grid gap-2 col-6 mx-auto">
+            <div class="buttons">
+                <button type="button" id="btnStoreManagement">Store Management</button>
+                <button type="button" id="btnOrderManagement">Order Management</button>
+                <button type="button" id="btnCustomerManagement">Customer Management</button>
+            </div>
+
+            <div class="cashier_interface_row03">
+                <button type="button" id="btnExit">EXIT</button>
+                <button onclick="btnHomeOnAction()" type="button" id="btnHome" >HOME</button>
+            </div>
+                <!-- <div class="d-grid gap-2 col-6 mx-auto">
                     <button class="btn btn-primary" type="button">Store Management</button>
-                </div>
+                </div> -->
             
 
         </div>
     
 
-
+        <script src="app.js"></script>
 </body>
 
 </html>
