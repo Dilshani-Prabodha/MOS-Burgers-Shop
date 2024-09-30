@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Update Customer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="update_customer_form">
+    <div class="container">
+        <div class="update_cust_row1">
+            <div class="col-4">
+                <img src="design/white logo.png" alt="customer_pic">
+            </div>
+            <div class="col-8">
+                <p>UPDATE CUSTOMER</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <input id="txtSearch" type="text">
+        <input id="btnSearch" type="button" value="SEARCH">
+    </div>
+    <div class="cust_detail_panel">
+        <img id="imgUpdateYellowFram" src="design/yellow fram.png" alt="back_frame">
+    </div>
+    <div class="customer_details">
+        <div class="col-6">
+            <p id="lblCustId">Customer ID</p>
+            <p id="lblCustName">Customer Name</p>
+            <p id="lblCustEmail">Customer Email</p>
+            <p id="lblCustTeleNo">Customer Tele No.</p>
+        </div>
+        <div class="col-6">
+            <input id="txtUpdateCustId" type="text">
+            <input id="txtUpdateCustName" type="text">
+            <input id="txtUpdateCustEmail" type="text">
+            <input id="txtUpdateCustTeleNo" type="text">
+        </div>
+    </div>
+<div class="buttons">
+    <input id="btnUpdateName" type="button" value="Update Name">
+    <input id="btnUpdateEmail" type="button" value="Update Email">
+    <input id="btnUpdateTeleNo" type="button" value="Update Contact">
+    <button  onclick="btnHomeOnAction()" id="btnHome">HOME</button>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

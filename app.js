@@ -26,3 +26,23 @@ function btnHomeOnAction(){
 
   // window.location.href = 'index.html';
 }
+
+function btnAddCustomerOnAction(){
+    window.location.assign('./add_customer_form.html');
+}
+
+function btnViewCustomerOnAction(){
+    window.location.assign('./view_customer_form.html');
+}
+
+function btnUpdateCustomerOnAction(){
+    window.location.assign('./update_customer.html');
+}
+
+function btnDeleteCustomerOnAction(){
+    window.location.assign('./delete_customer_form.html');
+}
+
+function btnHistoryCustomerOnAction(){
+    window.location.assign('./history_customer_form.html');
+}
