@@ -28,7 +28,7 @@
     margin-left: 20px;
     font-family: "Roboto", sans-serif;
     font-style: bold;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     padding: 0;
     line-height: 75px;
 }
@@ -40,152 +40,38 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     padding: 0;
-    margin-bottom: 50px;
+    bottom: 20%;
+    position: absolute;
 }
 
 /*---------------------HOME PAGE Btn-----------------*/
 #username{
     position: absolute;
     left: 50px;
-    top: 500px;
+    bottom: 13%;
+    width: 210px;
+    height: 30px;
 }
 
 #password{
     position: absolute;
-    left: 270px;
-    top: 500px;
+    left: 310px;
+    bottom: 13%;
+    width: 210px;
+    height: 30px;
 }
 .btn-warning{
-    border-color: #C62828 ;
+    border-color: #b11111 ;
     border-width: 2px;
     border-style: solid;
     position: absolute;
-    top: 545px;
-    left: 195px;
+    bottom: 20px;
+    left: 1px;
     font-weight: bold;
-    width: 120px;
+    width: 135px;
+    height: 35px;
 }
 
-/* #btnCashier{
-    margin-left: 40px;
-}
-
-#btnAdmin{
-    margin-left: 50px;
-} */
-
-/* -----------------------------ADMIN LOGING PAGE CSS-------------------------------------
-/*---------------------ADMIN LOGING PAGE Body Tag-----------------*/
-/* .admin_loging_page{
-    background-image: url(design/login_page.png);
-    width: 1350px;
-    height: 595px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-} */
-
-/*---------------------ADMIN LOGING PAGE MOS Logo-----------------*/
-/* .col02-row01-admin_login01 img{
-    position: absolute;
-    width: 250px;
-    left: 80%;
-    padding: 0;
-    top: 2px;
-} */
-
-/*---------------------ADMIN LOGING PAGE lblAdminLoging-----------------*/
-/* .col01-row01-admin_login01 p{
-    color: #C0C0C0;
-    font-size: 70px;
-    margin-left: 20%;
-    font-family: "Ga Maamli", sans-serif;
-    font-style: normal;
-    padding: 0;
-} */
-
-/*---------------------ADMIN LOGING PAGE txtUserName-----------------*/
-/* .row02-admin_login01 input{
-    width: 40%;
-    margin-left: 15%;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-} */
-
-/*---------------------ADMIN LOGING PAGE txtPassword-----------------*/
-/* .row03-admin_login01 input{
-    width: 40%;
-    margin-left: 15%;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-bottom: 50px;    
-} */
-
-/*---------------------ADMIN LOGING PAGE btnLogin-----------------*/
-/* .row04-admin_login01 button{
-    margin-left: 3%;
-    font-weight: bold;
-    width: 250px;
-} */
-
-
-/*-----------------------------CASHIER LOGING PAGE CSS-------------------------------------*/
-/*---------------------CASHIER LOGING PAGE Body Tag-----------------*/
-/* .cashier_loging_page{
-    background-image: url(design/login_page.png);
-    width: 1350px;
-    height: 595px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-} */
-
-/*---------------------CASHIER LOGING PAGE MOS Logo-----------------*/
-/* .col02-row01-cashier_login01 img{
-    position: absolute;
-    width: 250px;
-    left: 80%;
-    padding: 0;
-    top: 2px;
-} */
-
-/*---------------------CASHIER LOGING PAGE lblAdminLoging-----------------*/
-/* .col01-row01-cashier_login01 p{
-    color: #C0C0C0;
-    font-size: 70px;
-    margin-left: 20%;
-    font-family: "Ga Maamli", sans-serif;
-    font-style: normal;
-    padding: 0;
-} */
-
-/*---------------------CASHIER LOGING PAGE txtUserName-----------------*/
-/* .row02-cashier_login01 input{
-    width: 40%;
-    margin-left: 15%;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-} */
-
-/*---------------------CASHIER LOGING PAGE txtPassword-----------------*/
-/* .row03-cashier_login01 input{
-    width: 40%;
-    margin-left: 15%;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-bottom: 50px;    
-} */
-
-/*---------------------CASHIER LOGING PAGE btnLogin-----------------*/
-/* .row04-cashier_login01 button{
-    margin-left: 3%;
-    font-weight: bold;
-    width: 250px;
-} */ 
 
 /*-----------------------------CASHIER INTERFACE PAGE CSS-------------------------------------*/
 .cashier_interface_page{
@@ -230,8 +116,8 @@
 
 .cashier_interface_col02 img{
     position: absolute;
-    width: 350px;
-    left: 70%;
+    width: 250px;
+    left: 80%;
     padding: 0;
     top: 2px;
 }
@@ -245,7 +131,7 @@
 }
 
 #btnStoreManagement{
-    border-color: #C62828 ;
+    border-color: #c62828 ;
     color:white;
     font-size: larger;
     background-color: black;
@@ -253,7 +139,7 @@
     position: absolute;
     width: 250px;
     height: 53px;
-    left: 830px;
+    left: 530px;
     top: 220px;
 }
 
@@ -266,7 +152,7 @@
     position: absolute;
     width: 250px;
     height: 53px;
-    left: 830px;
+    left: 530px;
     top: 295px;
 }
 
@@ -279,7 +165,7 @@
     position: absolute;
     width: 250px;
     height: 53px;
-    left: 830px;
+    left: 530px;
     top: 370px;
 }
 
@@ -657,7 +543,7 @@ text-shadow:-1px -1px 0 #ffffff,
 #btnAdd{
     /* Rectangle 28 */
 
-box-sizing: border-box;
+/* box-sizing: border-box; */
 
 position: absolute;
 width: 100px;
@@ -674,10 +560,10 @@ font-weight: bold;
 font-size: large;
 }
 
-/*-----------------------------UPDATE CUSTOMER PAGE CSS-------------------------------------*/
+/*-----------------------------ORDER MANAGEMENT PAGE CSS-------------------------------------*/
 
-.update_customer_form{
-    background-image: url(custom_manage/cust\ manage.png);
+.order_management_dash_board{
+    background-image: url(order_manage/order_cover.png);
     width: 1350px;
     height: 595px;
     background-repeat: no-repeat;
@@ -685,415 +571,276 @@ font-size: large;
     margin: 0;
 }
 
-.update_cust_row1 img {
-    position: absolute;
-    width: 146px;
-    height: 66px;
-    left: 10px;
-    top: 1px;
+.order_manage_row1 img {
+position: absolute;
+width: 146px;
+height: 66px;
+left: 10px;
+top: 1px;
 }
 
-.update_cust_row1 p {
+.order_manage_row1 p {
     position: absolute;
     width: 100%;
     height: 91px;
-    left: 466px;
+    left: 600px;
     
 
     font-family: "Jaldi", sans-serif;
     font-style: normal;
     font-size: 60px;
-    line-height: 5px;
+    line-height: 81px;
 
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold; 
-    text-shadow:-1px -1px 0 #F3C712, 
-                1px 1px 0 #F3C712,
-                1px  1px 0 #F3C712,
-                -2px  -2px 0 #F3C712;
+    text-shadow:-1px -1px 0 red,  
+                1px 1px 0 red,
+                1px  1px 0 red,
+                -2px  -2px 0 red;
 }
 
-#imgUpdateYellowFram{
-    position: absolute;
-    width: 1000px;
-    height: 340px;
-    left: 70px;
-    top: 170px;
+#imgWhiteFram{
+    /* Rectangle 11 */
 
-    background: rgba(145, 117, 8, 0.3);
-    opacity: 0.4;
+position: absolute;
+width: 370px;
+height: 280px;
+left: 650px;
+top: 180px;
+
+background: rgba(0, 0, 0, 0.5);
+opacity: 0.1;
 }
 
-#txtUpdateCustId{
+#btnNewCustomer{
     position: absolute;
-    width: 110px;
-    height: 27px;
-    left: 440px;
-    top: 220px;
+    width: 330px;
+    height: 37px;
+    left: 670px;
+    top: 230px;
+    
+    background: #DDB40E;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bolder;
+    line-height: 30px;
+    cursor: pointer;
 }
 
-#txtUpdateCustName{
+#btnMemberCustomer{
     position: absolute;
-    width: 600px;
-    height: 27px;
-    left: 440px;
+    width: 330px;
+    height: 37px;
+    left: 670px;
     top: 300px;
-}
-
-#txtUpdateCustEmail{
-    position: absolute;
-    width: 600px;
-    height: 27px;
-    left: 440px;
-    top: 380px;
-}
-#txtUpdateCustTeleNo{
-    position: absolute;
-    width: 200px;
-    height: 27px;
-    left: 440px;
-    top: 460px;
-}
-#btnUpdateName{
-    /* Rectangle 28 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 150px;
-height: 35px;
-left: 1150px;
-top: 330px;
-
-background: #000000;
-border: 3px solid #BE9A0A;
-border-radius: 5px;
-
-color: #ffffff;
-font-weight: bold;
-font-size: large;
-}
-
-#btnUpdateEmail{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 35px;
-    left: 1150px;
-    top: 390px;
     
-    background: #000000;
-    border: 3px solid #BE9A0A;
-    border-radius: 5px;
-    
-    color: #ffffff;
-    font-weight: bold;
-    font-size: large;
+    background: #DDB40E;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bolder;
+    line-height: 30px;
+    cursor: pointer;
 }
 
-#btnUpdateTeleNo{
-    box-sizing: border-box;
-
+#btnOrderListCustomer{
     position: absolute;
-    width: 150px;
-    height: 35px;
-    left: 1150px;
-    top: 450px;
+    width: 330px;
+    height: 37px;
+    left: 670px;
+    top: 370px;
     
-    background: #000000;
-    border: 3px solid #BE9A0A;
-    border-radius: 5px;
-    
-    color: #ffffff;
-    font-weight: bold;
-    font-size: large;
+    background: #DDB40E;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bolder;
+    line-height: 30px;
+    cursor: pointer;
 }
 
-#txtSearch{
-    /* Rectangle 32 */
-position: absolute;
-width: 400px;
-height: 25px;
-left: 375px;
-top: 120px;
-
-}
-
-#btnSearch{
-box-sizing: border-box;
-
-position: absolute;
-width: 101px;
-height: 25px;
-left: 820px;
-top: 120px;
-
-background: #050505;
-border: 1px solid #FFFAFA;
-border-radius: 2px;
-
-color: #ffffff;
-font-size: medium;
-
-}
-
-/*-----------------------------VIEW CUSTOMER PAGE CSS-------------------------------------*/
-
-.view_customer_form{
-    background-image: url(custom_manage/cust\ manage.png);
-    width: 1350px;
-    height: 595px;
-    background-repeat: no-repeat;
-    background-position: center;
+/* Customer Management */
+#CustManageBody {
+    font-family: Arial, sans-serif;
+    background-image: url("custom_manage/cust\ manage.png");
     margin: 0;
+    padding: 20px;
 }
 
-.view_cust_row1 img {
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-form {
     position: absolute;
-    width: 146px;
-    height: 66px;
-    left: 10px;
-    top: 1px;
+    top: 140px;
+    width: 45%;
+    height: 350px;
+    background-color: #000000;
+    opacity: 0.7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.view_cust_row1 p {
+.customer-list{
+    position: absolute;
+    top: 130px;
+    width: 45%;
+    height: 400px;
+    left: 700px;
+    background-color: #000000;
+    opacity: 0.7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#customerId{
+    color: white;
+}
+
+#lblCustomerManagement{
     position: absolute;
     width: 100%;
     height: 91px;
-    left: 466px;
+    left: 450px;
+    bottom: 70%;
     
-
     font-family: "Jaldi", sans-serif;
     font-style: normal;
     font-size: 60px;
-    line-height: 5px;
-
-    color: #000000;
+    line-height: 81px;
+    
+    color: #FFFFFF;
     font-weight: bold; 
-    text-shadow:-1px -1px 0 #F3C712, 
-                1px 1px 0 #F3C712,
-                1px  1px 0 #F3C712,
-                -2px  -2px 0 #F3C712;
+    text-shadow:-1px -1px 0 #0d0ad4,  
+                1px 1px 0 #0d0ad4,
+                1px  1px 0 #0d0ad4,
+                -2px  -2px 0 #0d0ad4;
 }
 
 
-#txtViewCustId{
+/* h2 {
+    color: #3742fa;
+    text-shadow:-1px -1px 0 rgb(255, 255, 255),  
+            1px 1px 0 rgb(255, 255, 255),
+            1px  1px 0 rgb(255, 255, 255),
+            -2px  -2px 0 rgb(255, 255, 255);
+    
+} */
+
+#lblAddCustomerForm{
+    color: #3742fa;
+    text-shadow:-1px -1px 0 rgb(255, 255, 255),  
+    1px 1px 0 rgb(255, 255, 255),
+    1px  1px 0 rgb(255, 255, 255),
+    -2px  -2px 0 rgb(255, 255, 255);
+    font-size: 30px;
     position: absolute;
-    width: 110px;
-    height: 27px;
-    left: 440px;
-    top: 220px;
+    left: 190px;
+    bottom: 90%;
 }
 
-#txtViewCustName{
+#lblCustomerListForm{
+    color: #3742fa;
+    text-shadow:-1px -1px 0 rgb(255, 255, 255),  
+    1px 1px 0 rgb(255, 255, 255),
+    1px  1px 0 rgb(255, 255, 255),
+    -2px  -2px 0 rgb(255, 255, 255);
+    font-size: 30px;
     position: absolute;
-    width: 600px;
-    height: 27px;
-    left: 440px;
-    top: 300px;
+    left: 190px;
+    bottom: 90%;
 }
 
-#txtViewCustEmail{
-    position: absolute;
-    width: 600px;
-    height: 27px;
-    left: 440px;
-    top: 380px;
-}
-#txtViewCustTeleNo{
-    position: absolute;
-    width: 200px;
-    height: 27px;
-    left: 440px;
-    top: 460px;
-}
-#btnViewList{
-    /* Rectangle 28 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 250px;
-height: 35px;
-left: 550px;
-top: 530px;
-
-background: #0c035c;
-border: 3px solid #BE9A0A;
-border-radius: 5px;
-
-color: #ffffff;
-font-weight: bold;
-font-size: large;
+label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-/*-----------------------------DELETE CUSTOMER PAGE CSS-------------------------------------*/
-.delete_customer_form{
-    background-image: url(custom_manage/cust\ manage.png);
-    width: 1350px;
-    height: 595px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-}
-
-.delete_cust_row1 img {
-    position: absolute;
-    width: 146px;
-    height: 66px;
-    left: 10px;
-    top: 1px;
-}
-
-.delete_cust_row1 p {
-    position: absolute;
+input {
     width: 100%;
-    height: 91px;
-    left: 466px;
-    
-
-    font-family: "Jaldi", sans-serif;
-    font-style: normal;
-    font-size: 60px;
-    line-height: 5px;
-
-    color: #000000;
-    font-weight: bold; 
-    text-shadow:-1px -1px 0 #F3C712, 
-                1px 1px 0 #F3C712,
-                1px  1px 0 #F3C712,
-                -2px  -2px 0 #F3C712;
+    padding: 8px;
+    margin-top: 23px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-
-#txtDeleteCustId{
-    position: absolute;
-    width: 110px;
-    height: 27px;
-    left: 440px;
-    top: 220px;
+button {
+    background-color: #0d0ad4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 250px;
 }
 
-#txtDeleteCustName{
-    position: absolute;
-    width: 600px;
-    height: 27px;
-    left: 440px;
-    top: 300px;
+button:hover {
+    background-color: #3742fa;
 }
 
-#txtDeleteCustEmail{
-    position: absolute;
-    width: 600px;
-    height: 27px;
-    left: 440px;
-    top: 380px;
-}
-#txtDeleteCustTeleNo{
-    position: absolute;
-    width: 200px;
-    height: 27px;
-    left: 440px;
-    top: 460px;
-}
-#btnDelete{
-    /* Rectangle 28 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 100px;
-height: 35px;
-left: 1000px;
-top: 520px;
-
-background: #000000;
-border: 3px solid #BE9A0A;
-border-radius: 5px;
-
-color: #ffffff;
-font-weight: bold;
-font-size: large;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-/*-----------------------------CUSTOMER HIATORY PAGE CSS-------------------------------------*/
-.history_customer_form{
-    background-image: url(custom_manage/cust\ manage.png);
-    width: 1350px;
-    height: 595px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
-.history_cust_row1 img {
-    position: absolute;
-    width: 146px;
-    height: 66px;
-    left: 10px;
-    top: 1px;
+li span {
+    flex: 1;
 }
 
-.history_cust_row1 p {
-    position: absolute;
-    width: 100%;
-    height: 91px;
-    left: 466px;
-    
-
-    font-family: "Jaldi", sans-serif;
-    font-style: normal;
-    font-size: 60px;
-    line-height: 5px;
-
-    color: #000000;
-    font-weight: bold; 
-    text-shadow:-1px -1px 0 #F3C712, 
-                1px 1px 0 #F3C712,
-                1px  1px 0 #F3C712,
-                -2px  -2px 0 #F3C712;
+li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
 }
 
-#imgHistoryYellowFram{
-    position: absolute;
-    width: 1000px;
-    height: 240px;
-    left: 220px;
-    top: 250px;
-
-    background: rgba(145, 117, 8, 0.3);
-    opacity: 0.4;
+.edit-btn {
+    background-color: #ffa500;
+    color: white;
 }
 
-#lblSearchedCustId{
-    /* Customer ID */
-
-position: absolute;
-width: 163px;
-height: 40px;
-left: 50px;
-top: 130px;
-
-font-family: 'Jaldi';
-font-style: normal;
-font-weight: 400;
-font-size: 34px;
-line-height: 41px;
-
-color: #F3C712;
-
-text-shadow:-1px -1px 0 #F20909, 
-1px 1px 0 #F20909,
-1px  1px 0 #F20909,
--2px  -2px 0 #F20909;
-
+.delete-btn {
+    background-color: #ff3333;
+    color: white;
 }
 
-#txtSearchedId{
-    position: absolute;
-    width: 110px;
-    height: 27px;
-    left: 240px;
-    top: 165px;
+.place-order-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
 }
+
+.place-order-btn i {
+    margin-right: 5px;
+}
+
