@@ -25,19 +25,16 @@
     
             <div class="cashier_interface_row02">
                 <div class="buttons">
-                    <button type="button" id="btnStoreManagement">Store Management</button>
-                    <button type="button" id="btnOrderManagement">Order Management</button>
+                    <button onclick="btnStoreManagementOnAction()" type="button" id="btnStoreManagement">Store Management</button>
+                    <button onclick="btnOrderManagementOnAction()" type="button" id="btnOrderManagement">Order Management</button>
                     <button onclick="btnCustomerManagementOnAction()" type="button" id="btnCustomerManagement">Customer Management</button>
-                    <button type="button" id="btnReportManagement">Report Management</button>
+                    <button onclick="btnReportManagementOnAction()" type="button" id="btnReportManagement">Report Management</button>
                 </div>
     
                 <div class="cashier_interface_row03">
                     <button type="button" id="btnExit">EXIT</button>
-                    <button  onclick="btnHomeOnAction()" id="btnHome">HOME</button>
+                    <button  onclick="btnHomeOnAction()" id="btnHome">Log Out</button>
                 </div>
-                    <!-- <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-primary" type="button">Store Management</button>
-                    </div> -->
             </div>
             <script src="app.js"></script>
     </body>

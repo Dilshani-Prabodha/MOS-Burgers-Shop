@@ -62,47 +62,20 @@ function btnNewCustomerOnAction(){
 function btnCustomerManagementOnAction(){
     window.location.assign('./add_customers.html');
 }
+
+function btnOrderManagementOnAction(){
+    window.location.assign('./add_order_management_dash_board.html');
+}
+
 function btnMemberCustomerOnAction(){
     window.location.assign('./add_customers.html');
 }
 
+function PaymentOnAction(){
+    window.location.assign('./order_list.html');
+}
 
 
 
-// //Login credentials and navigation functions remain the same...
-
-// //Function for handling new customer order
-// function btnNewCustomerOnAction() {
-//     // Prompt for customer name
-//     const newCustomerName = prompt("Please enter your name:");
-
-//     // Ensure the user entered a name
-//     if (newCustomerName && newCustomerName.trim() !== "") {
-//         // Redirect to menu page (or another page as needed)
-//         window.location.assign('./Menu_Burger.html');
-        
-//         // Store the name in localStorage so it can be used across pages
-//         localStorage.setItem("newCustomerName", newCustomerName);
-
-//     } else {
-//         alert("No name entered. Please try again.");
-//     }
-// }
-
-// // Function to dynamically change the cart title
-// function updateCartTitle() {
-//     const customerName = localStorage.getItem("newCustomerName");
-//     if (customerName) {
-//         const cartTitle = document.querySelector("card-title");
-//         cartTitle.innerHTML = `<i class="fas fa-shopping-cart"></i> ${customerName}'s Cart`;
-//     }
-// }
-
-// // When the page loads, check if a customer name is stored
-// window.onload = function () {
-//     updateCartTitle();
-//     displayProducts(); // Assuming this function exists to display the products
-//     displayCart();     // Assuming this function exists to display the cart items
-// };
 
 

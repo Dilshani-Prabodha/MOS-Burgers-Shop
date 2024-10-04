@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Record</title>
+    <link rel="stylesheet" href="order_list.css">
+    <link rel="stylesheet" href=order_list.css">
+</head>
+<body id="order">
+    <div class="containerOrder">
+        <h1 id="lblOrderPayment">Order Payment</h1>
+
+        <!-- Payment Section -->
+        <div id="Order_payment-section">
+            <label for="customerId">Customer ID:</label>
+            <input type="text" id="customerId" placeholder="Enter Customer ID">
+            <label for="payment">Payment Amount:</label>
+            <input type="number" id="paymentOrder" placeholder="Enter Payment Amount">
+            <button id="paymentBtn">Submit Payment</button>
+        </div>
+
+        <!-- Order Record Section -->
+        <div id="order-record" class="hidden">
+            <h2 id="lblOrderRecord">Order Record</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Payment</th>
+                        <th>Paid</th>
+                    </tr>
+                </thead>
+                <tbody id="orderDetails">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="order.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
